@@ -36,6 +36,5 @@ func doRequest(w http.ResponseWriter, r *http.Request) {
 	}
 
 	fmt.Println("xyz")
-	fmt.Println("xyz123")
 	io.WriteString(w, "uid = "+uid)
 }
